@@ -32,7 +32,7 @@ namespace LearningCSharp.DuctShape
             }
         }
 
-        public override double Circumference()
+        public override double Perimeter()
         {
             return 2 * Width + 2 * Height;
         }

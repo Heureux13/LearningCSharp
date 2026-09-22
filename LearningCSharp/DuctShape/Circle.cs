@@ -9,26 +9,26 @@ namespace LearningCSharp.DuctShape
 {
     internal class Circle : Shape
     {
-        private double _radius;
+        private double _diameter;
 
-        public double Radius
+        public double Diameter
         {
-            get { return _radius; }
+            get { return _diameter; }
             set
             {
                 ValidatePositive(value);
-                _radius = value;
+                _diameter = value;
             }
         }
 
-        public override double Circumference()
+        public override double Perimeter()
         {
-            return 2 * System.Math.PI * Radius;
+            return 2 * System.Math.PI * Diameter / 2;
         }
 
         public override double Area()
         {
-            return System.Math.PI * System.Math.Pow(Radius, 2);
+            return System.Math.PI * System.Math.Pow(Diameter / 2, 2);
         }
     }
 }

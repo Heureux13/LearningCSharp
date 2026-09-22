@@ -12,3 +12,14 @@ D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\Lea
 D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.config
 D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe
 D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.pdb
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.config
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.pdb
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csproj.AssemblyReference.cache
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csproj.CoreCompileInputs.cache
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.pdb
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.manifest
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.application
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe.manifest
+D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.application

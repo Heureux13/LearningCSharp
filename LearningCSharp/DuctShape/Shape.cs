@@ -15,7 +15,7 @@ namespace LearningCSharp.DuctShape
                 throw new ArgumentException($"{value} must be greater than 0");
         }
 
-        public virtual double Circumference()
+        public virtual double Perimeter()
         {
             throw new NotImplementedException();
         }

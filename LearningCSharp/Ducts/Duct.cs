@@ -28,12 +28,12 @@ namespace LearningCSharp.Ducts
 
         public double SurfaceAreaSqft()
         {
-            return _shape.Circumference() * LengthFt / 12;
+            return _shape.Perimeter() * LengthFt / 12;
         }
 
         public double SurfaceAreaPerFoot()
         {
-            return _shape.Circumference() / 12;
+            return _shape.Perimeter() / 12;
         }
 
         private double _leakageClass;
@@ -46,7 +46,9 @@ namespace LearningCSharp.Ducts
                 _leakageClass = value;
             }
         }
+
         private double _testPressure;
+
         public double TestPressure
         {
             get { return _testPressure; }

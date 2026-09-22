@@ -31,23 +31,15 @@ namespace LearningCSharp.DuctShape
             }
         }
 
-        public override double Circumference() // Formula for a duct flat oval
+        public override double Perimeter()
         {
-            return System.Math.PI *
-                (3 * (MajorAxis + MinorAxis) -
-                System.Math.Sqrt(
-                    (3 * MajorAxis + MinorAxis) *
-                    (MajorAxis + 3 * MinorAxis)
-                ));
+            return 2 * (MajorAxis - MinorAxis)
+                + System.Math.PI * MinorAxis;
         }
 
         public override double Area()
         {
             return System.Math.PI * (MajorAxis / 2) * (MinorAxis / 2);
         }
-
-
-
-
     }
 }
