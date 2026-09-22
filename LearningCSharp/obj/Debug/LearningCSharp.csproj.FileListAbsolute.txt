@@ -5,3 +5,10 @@ C:\Users\fnava\source\repos\LearningCSharp\LearningCSharp\obj\Debug\LearningCSha
 C:\Users\fnava\source\repos\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csproj.CoreCompileInputs.cache
 C:\Users\fnava\source\repos\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe
 C:\Users\fnava\source\repos\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.pdb
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csproj.AssemblyReference.cache
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.csproj.CoreCompileInputs.cache
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.pdb
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.config
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.pdb

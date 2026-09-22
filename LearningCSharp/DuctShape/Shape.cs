@@ -19,6 +19,7 @@ namespace LearningCSharp.DuctShape
         {
             throw new NotImplementedException();
         }
+
         public virtual double Area()
         {
             throw new NotImplementedException();

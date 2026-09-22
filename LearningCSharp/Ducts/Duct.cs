@@ -40,7 +40,11 @@ namespace LearningCSharp.Ducts
         public double LeakageClass
         {
             get { return _leakageClass; }
-            set { _leakageClass = value; }
+            set
+            {
+                ValidateLeakageClass(value);
+                _leakageClass = value;
+            }
         }
         private double _testPressure;
         public double TestPressure
@@ -61,14 +65,5 @@ namespace LearningCSharp.Ducts
             if (!leakageList.Contains(value))
                 throw new ArgumentException($"{value} must be a valid leakage class");
         }
-
-        public double LeakageClass
-        {
-            get { return _leakageClass; }
-            set
-            {
-                ValidateLeakageClass(value);
-                _leakageClass = value;
-            }
-        }
+    }
 }
