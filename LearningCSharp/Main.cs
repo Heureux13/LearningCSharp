@@ -3,6 +3,7 @@ using LearningCSharp.DuctShape;
 using LearningCSharp.Ducts;
 using System;
 using System.Collections.Generic;
+using LearningCSharp.Helpers;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,112 +16,51 @@ namespace LearningCSharp
         {
             static void Main()
             {
+                InputHelper input = new InputHelper();
+
                 while (true)
 
                 {
-                    var validChoices = new List<string> { "rect", "round", "oval" };
-
-                    // Choosing duct shape
-
-                    Console.WriteLine("Round or Rect or Oval?");
-
-                    string inputChoice = Console.ReadLine();
-                    string cleanChoice = inputChoice.Trim().ToLower();
-
-
-                    while (!validChoices.Contains(cleanChoice))
-                    {
-                        Console.WriteLine($"{inputChoice} is not a valid pleast type (rect) or (round)");
-                        inputChoice = Console.ReadLine();
-                        cleanChoice = inputChoice.Trim().ToLower();
-                    }
+                    string shape = input.PickOne("Rect, Round, or Oval?");
 
                     // Create shape
 
                     Shape selectedShape = null;
 
-                    if (cleanChoice == "round")
+                    if (shape == "round")
                     {
                         Circle round = new Circle();
 
-                        Console.WriteLine($"What is the diameter?");
-                        string userDiameter = Console.ReadLine();
-
-                        double diameter;
-
-                        while (!double.TryParse(userDiameter, out diameter))
-                        {
-                            Console.WriteLine($"{userDiameter} is not a number try again");
-                            userDiameter = Console.ReadLine();
-                        }
-
+                        double diameter = input.AskForNumber("What is the diameter?");
                         round.Diameter = diameter;
 
                         selectedShape = round;
                     }
 
-                    else if (cleanChoice == "rect")
+                    else if (shape == "rect")
                     {
                         Rectangle rect = new Rectangle();
 
-                        Console.WriteLine($"What is the width?");
-                        string userWidth = Console.ReadLine();
-
-                        double width;
-
-                        while (!double.TryParse(userWidth, out width))
-                        {
-                            Console.WriteLine($"{userWidth} must be a number, please try again");
-                            userWidth = Console.ReadLine();
-                        }
-
-                        Console.WriteLine($"What is the height?");
-                        string userHeight = Console.ReadLine();
-
-                        double height;
-
-                        while (!double.TryParse(userHeight, out height))
-                        {
-                            Console.WriteLine($"{userHeight} must be a number, please try again");
-                            userHeight = Console.ReadLine();
-                        }
-
+                        double width = input.AskForNumber("What is the width?");
                         rect.Width = width;
+
+                        double height = input.AskForNumber("What is the height?");
                         rect.Height = height;
 
                         selectedShape = rect;
                     }
 
-                    else if (cleanChoice == "oval")
+                    else if (shape == "oval")
                     {
-                        Oval rect = new Oval();
+                        Oval oval = new Oval();
 
-                        Console.WriteLine($"What is the width?");
-                        string userWidth = Console.ReadLine();
+                        double majorAxis = input.AskForNumber("What is the width?");
+                        oval.MajorAxis = majorAxis;
 
-                        double width;
+                        double minorAxis = input.AskForNumber("What is the height?");
+                        oval.MinorAxis = minorAxis;
 
-                        while (!double.TryParse(userWidth, out width))
-                        {
-                            Console.WriteLine($"{userWidth} must be a number, please try again");
-                            userWidth = Console.ReadLine();
-                        }
-
-                        Console.WriteLine($"What is the height?");
-                        string userHeight = Console.ReadLine();
-
-                        double height;
-
-                        while (!double.TryParse(userHeight, out height))
-                        {
-                            Console.WriteLine($"{userHeight} must be a number, please try again");
-                            userHeight = Console.ReadLine();
-                        }
-
-                        rect.MajorAxis = width;
-                        rect.MinorAxis = height;
-
-                        selectedShape = rect;
+                        selectedShape = oval;
                     }
 
                     // Create duct
@@ -130,49 +70,15 @@ namespace LearningCSharp
                     selectedDuct.DuctShape = selectedShape;
 
                     // Get user length
-                    Console.WriteLine($"What is the duct length in feet");
-                    string userLength = Console.ReadLine();
-
-                    double length;
-
-                    while (!double.TryParse(userLength, out length))
-                    {
-                        Console.WriteLine($"{userLength} must be a number, please try again");
-                        userLength = Console.ReadLine();
-                    }
-
+                    double length = input.AskForNumber("What is the length in feet?");
                     selectedDuct.LengthFt = length;
 
                     // Get user leakage class
-                    Console.WriteLine($"What is the leakage class? ex: 2, 4, 8, 16");
-                    string userLeakageClass = Console.ReadLine();
-
-                    double leakageClass;
-                    var validLeakClass = new List<double> { 2, 4, 8, 16 };
-
-                    while (!double.TryParse(userLeakageClass, out leakageClass) ||
-                        !validLeakClass.Contains(leakageClass))
-                    {
-                        Console.WriteLine($"{userLeakageClass} must be 2, 4, 8, or 16");
-                        userLeakageClass = Console.ReadLine();
-                    }
-
+                    double leakageClass = input.PickLeakClass("What is the leakage class? ex 2, 4, 8, or 16");
                     selectedDuct.LeakageClass = leakageClass;
 
                     // Get user water gauge
-                    Console.WriteLine($"What is the water gauge? ex 1-20");
-                    string userWaterGauge = Console.ReadLine();
-
-                    double waterGauge;
-
-                    while (!double.TryParse(userWaterGauge, out waterGauge) ||
-                        waterGauge < 0 ||
-                        waterGauge > 20)
-                    {
-                        Console.WriteLine($"{userWaterGauge} must be a number, between 0 & 20");
-                        userWaterGauge = Console.ReadLine();
-                    }
-
+                    double waterGauge = input.NumbersInRange("What is the W.G.? ex: 1-20", 0, 10);
                     selectedDuct.TestPressure = waterGauge;
 
                     // Calculate results

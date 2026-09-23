@@ -23,3 +23,8 @@ D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\
 D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.application
 D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe.manifest
 D:\OneDrive - unitedmech.com\Documents\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.application
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe.config
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.exe.manifest
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\bin\Debug\LearningCSharp.application
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.exe.manifest
+D:\OneDrive\03_hobbies\coding\github\LearningCSharp\LearningCSharp\obj\Debug\LearningCSharp.application

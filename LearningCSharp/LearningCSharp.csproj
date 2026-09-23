@@ -77,6 +77,8 @@
     <Compile Include="DuctShape\Pentagon.cs" />
     <Compile Include="DuctShape\Triangle.cs" />
     <Compile Include="Ducts\Duct.cs" />
+    <Compile Include="Helpers\blank.cs" />
+    <Compile Include="Helpers\InputHelper.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="DuctShape\Circle.cs" />
     <Compile Include="DuctShape\Oval.cs" />
