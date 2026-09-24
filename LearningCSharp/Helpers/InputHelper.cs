@@ -34,7 +34,7 @@ namespace LearningCSharp.Helpers
             Console.WriteLine(question);
             string input = Clean(Console.ReadLine());
 
-            var validChoices = new List<string> { "rect", "round", "oval" };
+            var validChoices = new List<string> { "rect", "round", "oval", "r", "o", "s" };
 
             while (!validChoices.Contains(input))
             {

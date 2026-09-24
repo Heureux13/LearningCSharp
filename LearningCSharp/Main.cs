@@ -21,13 +21,13 @@ namespace LearningCSharp
                 while (true)
 
                 {
-                    string shape = input.PickOne("Rect, Round, or Oval?");
+                    string shape = input.PickOne("(S)/Rectangle, (R)ound, or (O)val?");
 
                     // Create shape
 
                     Shape selectedShape = null;
 
-                    if (shape == "round")
+                    if (shape == "round" || shape == "r")
                     {
                         Circle round = new Circle();
 
@@ -37,7 +37,7 @@ namespace LearningCSharp
                         selectedShape = round;
                     }
 
-                    else if (shape == "rect")
+                    else if (shape == "rect" || shape == "s")
                     {
                         Rectangle rect = new Rectangle();
 
@@ -50,7 +50,7 @@ namespace LearningCSharp
                         selectedShape = rect;
                     }
 
-                    else if (shape == "oval")
+                    else if (shape == "oval" || shape == "o")
                     {
                         Oval oval = new Oval();
 

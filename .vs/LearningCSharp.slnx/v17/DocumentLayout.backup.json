@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|d:\\onedrive\\03_hobbies\\coding\\github\\learningcsharp\\learningcsharp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|solutionrelative:learningcsharp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|d:\\onedrive\\03_hobbies\\coding\\github\\learningcsharp\\learningcsharp\\helpers\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|solutionrelative:learningcsharp\\helpers\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\learningcsharp\\helpers\\blank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A94A47A-D138-4D01-B09C-6AF7EBE8C0E1}|LearningCSharp\\LearningCSharp.csproj|solutionrelative:learningcsharp\\helpers\\blank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,46 +18,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InputHelper.cs",
               "DocumentMoniker": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Helpers\\InputHelper.cs",
               "RelativeDocumentMoniker": "LearningCSharp\\Helpers\\InputHelper.cs",
               "ToolTip": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Helpers\\InputHelper.cs",
               "RelativeToolTip": "LearningCSharp\\Helpers\\InputHelper.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAMwDAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T00:25:20.779Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "blank.cs",
-              "DocumentMoniker": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Helpers\\blank.cs",
-              "RelativeDocumentMoniker": "LearningCSharp\\Helpers\\blank.cs",
-              "ToolTip": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Helpers\\blank.cs",
-              "RelativeToolTip": "LearningCSharp\\Helpers\\blank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T01:20:33.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Main.cs",
-              "RelativeDocumentMoniker": "LearningCSharp\\Main.cs",
-              "ToolTip": "D:\\OneDrive\\03_hobbies\\coding\\github\\LearningCSharp\\LearningCSharp\\Main.cs",
-              "RelativeToolTip": "LearningCSharp\\Main.cs",
-              "ViewState": "AgIAAB0AAAAA//////8kwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T00:17:28.3Z",
               "EditorCaption": ""
             }
           ]
